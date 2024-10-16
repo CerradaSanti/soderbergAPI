@@ -1,0 +1,2 @@
+Not doing full validations: If you only check the status of the response (status 200), but do not do any validation on the consistency of the data (id, email, first_name, etc.). For example, an email field could be incorrectly formatted or missing in the response.
+Not checking data consistency: If you do not compare values such as email, first_name, last_name and avatar between the user list and the user details, then you are not checking the consistency between the user list and the user details.
